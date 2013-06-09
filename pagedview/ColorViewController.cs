@@ -8,9 +8,11 @@ namespace pagedview
 	public partial class ColorViewController : UIViewController
 	{
 		UIColor Color;
-		public ColorViewController (UIColor color) : base ("ColorViewController", null)
+		string Text;
+		public ColorViewController (UIColor color, string text) : base ("ColorViewController", null)
 		{
 			Color = color;
+			Text = text;
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -25,6 +27,7 @@ namespace pagedview
 		{
 			base.ViewDidLoad ();
 			this.View.BackgroundColor = Color;
+			this.helloWorldField.Text = Text;
 			this.View.Frame = new RectangleF (0, 0, 320, UIScreen.MainScreen.Bounds.Height);
 
 			// Perform any additional setup after loading the view, typically from a nib.

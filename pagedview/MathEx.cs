@@ -6,10 +6,11 @@ namespace pagedview
 	{
 		public static int Mod(int a, int b)
 		{
-			if (a < 0)
-				return b + (a % b);
+			var m = (a % b);
+			if (m < 0)
+				return b + m;
 			else
-				return a % b;
+				return m;
 		}
 	}
 }

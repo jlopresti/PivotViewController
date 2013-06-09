@@ -27,17 +27,17 @@ namespace pagedview
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 
 			var vc = new List<UIViewController> () {
-				new ColorViewController(UIColor.Red),
-				new ColorViewController(UIColor.Yellow),
-				new ColorViewController(UIColor.Green),
-				new ColorViewController(UIColor.Magenta),
-				new ColorViewController(UIColor.Cyan),
-				new ColorViewController(UIColor.Brown),
-				new ColorViewController(UIColor.Orange),
-				new ColorViewController(UIColor.Purple)
+				new ColorViewController(UIColor.Red, "Hello world from page 1"),
+				new ColorViewController(UIColor.Yellow, "Hello world from page 2"),
+				new ColorViewController(UIColor.Green, "Hello world from page 3"),
+				new ColorViewController(UIColor.Magenta, "Hello world from page 4"),
+				new ColorViewController(UIColor.Cyan, "Hello world from page 5"),
+				new ColorViewController(UIColor.Brown, "Hello world from page 6"),
+				new ColorViewController(UIColor.Orange, "Hello world from page 7"),
+				new ColorViewController(UIColor.Purple, "Hello world from page 8")
 			};
 
-			var controller = new PivotViewController (vc, 4);
+			var controller = new PivotViewController (vc, 0);
 			navigationController = new UINavigationController (controller);
 			window.RootViewController = navigationController;
 

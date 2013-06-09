@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E5B6FD70000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC7C7500000000000000000 /* UIKit.framework */; };
+		1FF1130A0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23821FA80000000000000000 /* MapKit.framework */; };
+		35247BA20000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B588400000000000000000 /* Foundation.framework */; };
+		288F5DEB0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C206A890000000000000000 /* CoreGraphics.framework */; };
+		404E3D900000000000000000 /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795F07700000000000000000 /* ColorViewController.xib */; };
+		19384C710000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC9590F0000000000000000 /* Default-568h@2x.png */; };
+		33ABD6680000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 373CE3060000000000000000 /* AppDelegate.h */; };
+		28C5CD720000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C56DA100000000000000000 /* AppDelegate.m */; };
+		117D89E10000000000000000 /* ColorViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 150E967F0000000000000000 /* ColorViewController.h */; };
+		2BF113D80000000000000000 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8220760000000000000000 /* ColorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11FAAAE90000000000000000 /* pagedview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "pagedview.app"; path = "pagedview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC7C7500000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		23821FA80000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		38B588400000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2C206A890000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		795F07700000000000000000 /* ColorViewController.xib */ = {isa = PBXFileReference; name = "ColorViewController.xib"; path = "ColorViewController.xib"; sourceTree = "<group>"; };
+		1CC9590F0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		373CE3060000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2C56DA100000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		150E967F0000000000000000 /* ColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ColorViewController.h"; path = "ColorViewController.h"; sourceTree = "<group>"; };
+		2F8220760000000000000000 /* ColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ColorViewController.m"; path = "ColorViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B24E6570000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5B6FD70000000000000000 /* UIKit.framework in Frameworks */,
+				1FF1130A0000000000000000 /* MapKit.framework in Frameworks */,
+				35247BA20000000000000000 /* Foundation.framework in Frameworks */,
+				288F5DEB0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E57E500000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				35D80C310000000000000000 /* pagedview */,
+				19828A5D0000000000000000 /* Frameworks */,
+				8B320B000000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B320B000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FAAAE90000000000000000 /* pagedview.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		19828A5D0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7C7500000000000000000 /* UIKit.framework */,
+				23821FA80000000000000000 /* MapKit.framework */,
+				38B588400000000000000000 /* Foundation.framework */,
+				2C206A890000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		35D80C310000000000000000 /* pagedview */ = {
+			isa = PBXGroup;
+			children = (
+				373CE3060000000000000000 /* AppDelegate.h */,
+				150E967F0000000000000000 /* ColorViewController.h */,
+				795F07700000000000000000 /* ColorViewController.xib */,
+				1CC9590F0000000000000000 /* Default-568h@2x.png */,
+				2AA7C54F0000000000000000 /* Supporting Files */,
+			);
+			name = "pagedview";
+			sourceTree = "<group>";
+		};
+		2AA7C54F0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C56DA100000000000000000 /* AppDelegate.m */,
+				2F8220760000000000000000 /* ColorViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DCF1D00000000000000000 /* pagedview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747850F00000000000000000 /* Build configuration list for PBXNativeTarget "pagedview" */;
+			buildPhases = (
+				15BE9AA30000000000000000 /* Sources */,
+				2B24E6570000000000000000 /* Frameworks */,
+				3EA93A2E0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pagedview";
+			productName = "pagedview";
+			productReference = 11FAAAE90000000000000000 /* pagedview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386AA9430000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 390352970000000000000000 /* Build configuration list for PBXProject "pagedview" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3E57E500000000000000000;
+			productRefGroup = 8B320B000000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DCF1D00000000000000000 /* pagedview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA93A2E0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404E3D900000000000000000 /* ColorViewController.xib in Resources */,
+				19384C710000000000000000 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15BE9AA30000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ABD6680000000000000000 /* AppDelegate.h in Sources */,
+				28C5CD720000000000000000 /* AppDelegate.m in Sources */,
+				117D89E10000000000000000 /* ColorViewController.h in Sources */,
+				2BF113D80000000000000000 /* ColorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36EE779E0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		2E502CBD0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "pagedview";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390352970000000000000000 /* Build configuration list for PBXProject "pagedview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EE779E0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		747850F00000000000000000 /* Build configuration list for PBXNativeTarget "pagedview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E502CBD0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386AA9430000000000000000 /* Project object */;
+}
