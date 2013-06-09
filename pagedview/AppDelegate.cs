@@ -31,14 +31,13 @@ namespace pagedview
 				new ColorViewController(UIColor.Yellow),
 				new ColorViewController(UIColor.Green),
 				new ColorViewController(UIColor.Magenta),
-				new ColorViewController(UIColor.Green),
+				new ColorViewController(UIColor.Cyan),
 				new ColorViewController(UIColor.Brown),
 				new ColorViewController(UIColor.Orange),
 				new ColorViewController(UIColor.Purple)
 			};
 
-			var controller = new PivotViewController (vc);
-			//controller.PagedViewDataSource = new TestPagesDataSource ();
+			var controller = new PivotViewController (vc, 4);
 			navigationController = new UINavigationController (controller);
 			window.RootViewController = navigationController;
 

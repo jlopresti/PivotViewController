@@ -22,6 +22,8 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchLink>None</MtouchLink>
     <ConsolePause>false</ConsolePause>
+    <MtouchI18n />
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <Optimize>true</Optimize>
@@ -89,9 +91,13 @@
     <Compile Include="ColorViewController.designer.cs">
       <DependentUpon>ColorViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="MathEx.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <InterfaceDefinition Include="ColorViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
   </ItemGroup>
 </Project>
